@@ -1,1 +1,15 @@
 Using this block, voltage source can be programmed to mimic any grid conditions such as voltage sag, swell, distrotion and frequency variations.
+
+dist = 1, for fundamental balanced voltages with 230 V RMS or 1 pu.
+dist = 2, for Fundamental Balanced sag of 0.5 pu
+dist = 3, for Fundamental Unbalanced sag Va = 0.5 pu and others at 1 pu
+dist = 4, for Fundamental Balanced swell of 1.2 pu
+dist = 5, for Fundamental unbalanced swell Va = 1.2 pu and others at 1pu
+dist = 6, for Distorted balanced voltages
+dist = 7, for Distorted voltages with balanced sag of 0.5 pu
+dist = 8, for Distorted voltages with unbalanced sag Va = 0.5 pu and other at 1 pu
+dist = 9, for Distorted voltages with balanced swell of 1.2 pu.
+dist = 10, for Distorted voltages with unbalanced swell Va = 1.2 pu and others at 1 pu.
+dist = any other value, for fundamental balanced voltages with 230 V RMS or 1 pu.
+
+The added harmonics are 5,7, 11 and 13. By seeing the program, any one can change the harmonic voltages, magnitudes and frequency.
