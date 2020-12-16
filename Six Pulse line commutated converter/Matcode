@@ -1,0 +1,3 @@
+Matlab code is used to mimic the six pulse line commutated converter with user defined firing angle and commutation angle.
+
+The code is assumed for a commutation angle of less than 60 degrees.
